@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pide cerveza y más por medio de la aplicación de Chupe.Mx">
+    <meta name="keywords" content="cerveza, chupe, delivery, entrega, aplicacion, app, iphone, android, fiesta, reunion, alcohol, botana, paypal, seguro, rapido"
+    <meta name="author" content="Oliver Hernández, Temo Ojeda">
+
+    <title>Chupe.mx - Tus cervezas on demand</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- Parse Javascript -->
+   <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+    <script src="//www.parsecdn.com/js/parse-1.6.2.min.js"></script>-->
+
+    <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <script src="parse.js"></script>
+
+   <script type="text/javascript">
+            function getMail (){
+                var welcomeP = document.getElementById('welcome');
+               var eMail = document.getElementById('email');
+                var inputMail = eMail.value
+
+                welcomeP.innerHTML = "¡Gracias! Pronto recibirás noticias, promociones y más en esta dirección: " + inputMail;
+
+                
+            }
+
+            /*function getMail (){
+                var welcomeP = document.getElementById('welcome');
+               var eMail = document.getElementById('email');
+                var inputMail = eMail.value
+
+                if (eMail.value == null) {
+                    welcomeP.innerHTML = "Por favor introduce un correo electrónico válido. Prometemos no spamearte ";
+                } else {
+                    welcomeP.innerHTML = "¡Gracias! pronto recibirás noticias y promociones más a " + inputMail;
+                };
+
+                
+
+                
+            }*/
+        </script>
+
+
+</head>
+
+<body id="page-top">
+
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Chupe.mx</h1>
+                <h3>¡Tu chupe en la puerta de tu casa!</h3>
+                <hr>
+                <p>Pide cerveza, botana y mucho más hasta la puerta de tu casa con tan solo una app en tu celular. Elige lo que más te guste o lo que necesites para tu reunión sin siquiera salir de tu casa. Así de sencillo y sin usar efectivo. </p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">¿Cómo?</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Una cerveza en tus manos y una sonrisa en tu cara; solo en 5 pasos</h2>
+                    <hr class="light">
+                    <p class="text-faded">
+                            <p>1. Baja Chupe.MX desde tu tienda de aplicaciones</p>
+                            <p>2. Abre la aplicación</p>
+                            <p>3. Ordena lo que quieras</p>
+                            <p>4. Elige tu forma de pago</p>
+                            <p>5. Espera mientras tu chupe llega. No nos tardamos, lo prometemos</p>
+                        </p>
+                    <a href="#services" class="btn btn-default btn-xl page-scroll">¿Y qué más?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Rápido, fácil y seguro. Como debe de ser.</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-lock wow bounceIn text-primary"></i>
+                        <h3>Sin ninguna preocupación</h3>
+                        <p class="text-muted">Preocuparte por la seguridad de tus datos es lo último que quieres hacer en una fiesta. Por esa razón los hemos asegurado para que nadie los pueda robar. Así tú sigues en la fiesta, sin nada de qué preocuparte. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-clock-o wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Más rápido que ir a la esquina</h3>
+                        <p class="text-muted">Usando una extensa red de repartidores, nos aseguramos de que tu pedido llegue a tiempo a tu reunión; exáctamente hasta donde sea que te encuentres. Solo tendrás que preocuparte por esperar a tus invitados. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paypal wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Paga como quieras</h3>
+                        <p class="text-muted">Sabemos que no te gusta pagar en efectivo. Por eso te ofrecemos diferentes maneras de pagar tu pedido: tarjeta de crédito, de débito, tarjetas prepagadas y hasta PayPal. Usa la forma de pago que que más te convenga.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Amamos a nuestros usuarios</h3>
+                        <p class="text-muted">Te amamos. Tú eres la razón por la que hacemos esto. Si tienes cualquier duda, queja o sugerencia, escríbenos a nuestras páginas de contacto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>¡Entérate cuando esté lista la app!</h2>
+                <hr class="light">
+                <p id="welcome"></p>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+
+
+                
+
+
+
+                <!--<form id ="emailform" class ="center">
+                    <p class="input-group">
+                        <span class="input-group-addon">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        <label for="email"></label>
+                        <input type="email" class="form-control input-lg" name="email" id="email" placeholder="quiero@chupe.mx" />
+                    </p>
+                    <p class="help-block text-center"><small><em>No te preocupes. No vamos a llenarte de spam.</em></small></p>
+                    <p class="text-center">
+                        <input  type="submit" value="¡Quiero Chupe!" class="btn btn-success btn-lg" onClick="getMail();"/>
+                    </p>
+                    </span>
+                </form>-->
+
+                <form id="emailForm">            
+            <p class="input-group">
+                  <span class="input-group-addon">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+            <label for="email"></label>
+            <input type="email" class="form-control input-lg" name="email" id="email" required placeholder="quiero@chupe.mx">
+            </p>           
+            <p class="help-block text-center"><small><em>No te preocupes. No vamos a llenarte de spam.</em></small></p>
+            <p>
+            <input type="submit" class="btn btn-success btn-lg page-scroll" value="¡Quiero Chupe!" onclick="getMail();">
+            </p>
+        </form>
+
+
+
+
+
+
+
+            </div>
+
+
+
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">¡Contáctanos!</h2>
+                    <hr class="primary">
+                    <p>¿Tienes alguna duda, queja o sugerencia? ¿Quiéres trabajar con nosotros? ¿Quiéres decirnos lo mucho que nos amas? Mándanos un mensaje en nuestras redes sociales y te responderemos en menos de 24 horas. </p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-facebook-square fa-3x wow bounceIn"></i>
+                    <p><a href="https://www.facebook.com/chupemx" target="_blank">ChupeMX</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-twitter-square fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="https://twitter.com/chupemx" target="_blank">@chupemx</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+ 
+
+
+
+</body>
+
+</html>
